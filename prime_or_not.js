@@ -1,4 +1,5 @@
 function prime_check(num){
+
     if(num<2 || num==undefined){
      return "Not Prime";
     } 
@@ -12,3 +13,4 @@ function prime_check(num){
  }
  
  console.log(prime_check(0));
+
